@@ -7,12 +7,12 @@ Your challenge for today is this: write a function that accepts a single string 
 
 So an example of using this function would look like:
 
-translation = horse_latin_translator("In one hour it will be time to load the box into the cargo bay")
+`translation = horse_latin_translator("In one hour it will be time to load the box into the cargo bay")`
 
 
 and the value assigned to translation here would be:
 
-"Inhay onenay hourhay ithay willhay benay timenay tonay loadhay thenay boxhay intonay thenay cargonay bayhay"
+`"Inhay onenay hourhay ithay willhay benay timenay tonay loadhay thenay boxhay intonay thenay cargonay bayhay"`
 
 
 Don't worry about punctuation - just assume the string will not contain any punctuation characters. You may find the following two builtin python functions helpful:
