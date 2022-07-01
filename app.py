@@ -8,10 +8,9 @@ def horse_latin_translator():
     for word in raw_words:
         if word.endswith(VOWELS):
             horse_word = f"{word}nay"
-            horse_word_list.append(horse_word)
         else:
             horse_word = f"{word}hay"
-            horse_word_list.append(horse_word)
+        horse_word_list.append(horse_word)
 
     horse_word_tuple = tuple(horse_word_list)
     horse_result = " ".join(horse_word_tuple)
